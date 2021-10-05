@@ -29,7 +29,9 @@ operation(randnMatrix)
 operation(randiMatrix)
 
 % 3)
-Matrix3 = 15 +  (5 + 5) * rand(10, 10)
+matrix3 = 15 + (5 + 5) * rand(10, 10)
+matrix4 = randi([50, 1000], 10)
+matrix5 = 10 + randn([2, 3])
 
 % End your code
 disp('Completed');
@@ -44,5 +46,5 @@ function [maxx, minx, medx, sumx, stdx] = operation(x)
 	sumx = sum(x)
 	stdx = std(x)
 	disp('Press Enter to Continue')
-%	pause()
+	pause()
 end
