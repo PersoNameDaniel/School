@@ -18,6 +18,20 @@ disp('Starting L4 P5');
 
 %assigned questions
 
+% 1)
+var = rand(5, 5)
+
+% 2)
+save('test_1.mat')
+
+% 3)
+
+% Clearing workspace
+clear
+clc
+
+% Loading File
+load('test_1.mat')
 
 
 %End your code
