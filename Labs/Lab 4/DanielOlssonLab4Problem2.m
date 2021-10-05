@@ -19,7 +19,7 @@ disp('Starting L4 P2');
 %assigned questions
 
 % 1)
-fprintf('Hello again from ENGR 15100! \n "----------------------------------" \n Disdplay \n a \n string \n across \n multiple lines \n "-----------------------------------" \n This is September 23, 2020. \n ')
+fprintf('Hello again from ENGR 15100! \n "----------------------------------" \n Display \n a \n string \n across \n multiple lines \n "-----------------------------------" \n This is September 23, 2020. \n ')
 
 %End your code
 disp('Completed');
