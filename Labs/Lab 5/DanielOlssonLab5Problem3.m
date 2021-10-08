@@ -19,7 +19,7 @@ disp('Starting L5 P3');
 %assigned questions
 
 % 1)
-x = -4:0.01:9
+x = [-4:0.01:9]
 y = (3*cos(x) - sin(x)) .* exp(x .* -0.2)
 
 plot (x, y)

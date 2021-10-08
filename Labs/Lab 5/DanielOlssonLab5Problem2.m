@@ -19,8 +19,8 @@ disp('Starting L5 P2');
 %assigned questions
 
 % 1)
-x = 0:0.001:2;
-y = (((x.^(2))-(3*x)+7)/(sqrt((2*x)+5)));
+x = [0:0.001:2]
+y = (((x.^(2))-(3*x)+7)/(sqrt((2*x)+5)))
 
 plot (x, y)
 
