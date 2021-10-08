@@ -18,7 +18,21 @@ disp('Starting L5 P5');
 
 %assigned questions
 
+% 1)
+t = [0:0.01:2*pi]
 
+x = (cos(t)).^3
+y = (sin(t)).^3
+
+u = sin(t)
+v = cos(t)
+
+hold on
+axis([-2, 2, -2, 2])
+
+plot(x, y)
+
+plot(u, v, 'g--')
 
 %End your code
 disp('Completed');
