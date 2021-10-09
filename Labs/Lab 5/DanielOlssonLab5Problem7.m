@@ -28,6 +28,10 @@ P = (8.3145 * T) ./ (V)
 hold on
 plot(V, P)
 
+xlabel('Volume, m^3')
+ylabel('Pressure, Pa')
+title('Ideal gas Isotherms')
+
 % Second Graph (200K)
 T = 200
 P = (8.3145 * T) ./ (V)
