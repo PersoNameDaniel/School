@@ -18,7 +18,12 @@ disp('Starting L5 P8');
 
 %assigned questions
 
+% 1)
+viscircles([4.2, 2.7], 7.5, 'Color', 'b')
 
+xlabel('x -->')
+ylabel('y -->')
+title(['Circle with center (4.2, 2.7) and r = 7.5'])
 
 %End your code
 disp('Completed');
