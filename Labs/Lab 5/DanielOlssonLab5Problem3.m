@@ -18,7 +18,15 @@ disp('Starting L5 P3');
 
 %assigned questions
 
+% 1)
+x = [-4:0.01:9]
+y = (3*cos(x) - sin(x)) .* exp(x .* -0.2)
 
+plot (x, y)
+
+xlabel('x -->')
+ylabel('f(x) -->')
+title('f(x) = (3cosx - sinx)e^{-0.2x}')
 
 %End your code
 disp('Completed');

@@ -18,7 +18,37 @@ disp('Starting L5 P7');
 
 %assigned questions
 
+% 1)
 
+% First Graph (100K)
+V = [1:0.001:10]
+T = 100
+P = (8.3145 * T) ./ (V)
+
+hold on
+plot(V, P)
+
+xlabel('Volume, m^3')
+ylabel('Pressure, Pa')
+title('Ideal gas Isotherms')
+
+% Second Graph (200K)
+T = 200
+P = (8.3145 * T) ./ (V)
+
+plot(V, P, '--g')
+
+% Third Graph (300K)
+T = 300
+P = (8.3145 * T) ./ (V)
+
+plot(V, P, ':r')
+
+% Fourth Graph (400K)
+T = 400
+P = (8.3145 * T) ./ (V)
+
+plot(V, P, '-.c')
 
 %End your code
 disp('Completed');

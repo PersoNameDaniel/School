@@ -18,7 +18,15 @@ disp('Starting L5 P2');
 
 %assigned questions
 
+% 1)
+x = [-1:0.01:5]
+y = (((x.^2)-(3.*x))+7)./(sqrt((2.*x)+5))
 
+plot (x, y)
+
+xlabel('x -->')
+ylabel('f(x) -->')
+title('f(x) = (x^2 - 3x + 7)/(sqrt(2x+5)')
 
 %End your code
 disp('Completed');
