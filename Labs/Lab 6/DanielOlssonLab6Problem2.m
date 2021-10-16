@@ -18,6 +18,8 @@ disp('Starting L6 P2');
 
 % assigned questions
 
+% 1)
+
 
 
 % End your code
