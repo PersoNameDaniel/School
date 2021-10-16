@@ -7,18 +7,18 @@ File Name : DanielOlssonLabProblem.m
 (eg: Xiaoli_Yang_LAB1_Problem1.m)
 Date : []/[]/[2021]
 %}
-%clear workspace
+% clear workspace
 clear
-%clear screen
+% clear screen
 clc
-%display your name
+% display your name
 disp('Daniel Olsson');
 disp('Starting L P');
-%Start your source code here
+% Start your source code here
 
-%assigned questions
+% assigned questions
 
 
 
-%End your code
+% End your code
 disp('Completed');
