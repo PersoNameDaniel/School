@@ -19,7 +19,26 @@ disp('Starting L6 P2');
 % assigned questions
 
 % 1)
+x = [-15:0.1:15]
 
+% 2)
+if(x > -10 | x < 0)
+    f = abs(x - 5)
+elseif(x == 0)
+    f = -4
+elseif(x > 0 | x < 10)
+    f = (x^2) - 2
+else
+    f = 30
+end
+
+% 3)
+plot(f,x)
+
+title('f(x) vs. x')
+ylabel('x')
+xlabel('f(x)')
+grid on
 
 
 % End your code
