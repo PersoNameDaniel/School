@@ -13,7 +13,7 @@ clear
 clc
 % display your name
 disp('Daniel Olsson');
-disp('Starting L7 P1');
+disp('Starting L7 P3');
 % Start your source code here
 
 % assigned questions
