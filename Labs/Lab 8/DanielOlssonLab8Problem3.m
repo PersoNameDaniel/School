@@ -18,7 +18,28 @@ disp('Starting L8 P3');
 
 % assigned questions
 
+yOld = 0;
+t = [0:0.01:100];
+y = 2400 - (t - 40).^2;
+plot(t, y);
 
+for t = [0:0.01:100];
+    y = 2400 - (t - 40).^2;
+    if (y >= 1599) | (y <= 1601);
+        disp(t);
+    end;
+
+    if yOld > y;
+        disp(tOld);
+    end;
+
+    yOld = y;
+    tOld = t;
+end;
+
+a = 2400 - (2000 - 40).^2;
+b = 2400 - (1000 - 40).^2;
+disp(b - a);
 
 % End your code
 disp('Completed');
