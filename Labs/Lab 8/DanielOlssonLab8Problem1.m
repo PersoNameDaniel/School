@@ -18,7 +18,16 @@ disp('Starting L8 P1');
 
 % assigned questions
 
+R = [0:0.1:40]
+P = R .* ((10) ./ (R + 20))
 
+plot(P, R)
+
+grid on
+
+title('Power Versus Resistance')
+xlabel('Power')
+ylabel('Resistance')
 
 % End your code
 disp('Completed');
