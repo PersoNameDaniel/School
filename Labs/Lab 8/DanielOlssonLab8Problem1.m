@@ -20,7 +20,7 @@ disp('Starting L8 P1');
 
 % asigning Values
 R = [0:0.1:40]
-P = R .* ((10) ./ (R + 20))
+P = R .* ((10) ./ (R + 20)).^2
 
 % Plotting
 plot(P, R)
