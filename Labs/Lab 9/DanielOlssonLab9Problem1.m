@@ -18,7 +18,28 @@ disp('Starting L9 P1');
 
 % assigned questions
 
+% 1)
+disp(myFunction(5, 6, 10));
+disp(myFunction(1, 2, 3));
 
 
 % End your code
 disp('Completed');
+
+% Functions
+function [out1, out2] = myFunction(x, y, z);
+    k=1;
+    i = 1;
+    while (k <= 10);
+        fprintf('k = %d\n ', k);
+        if (x>y) && (k==5);
+            out1(i) = k*sqrt(sum((x-y)/z));
+            out2(i) = k*fact(z)*fact(x-y);
+        else;
+            out1(i) = k*sqrt(sum((x+y)/z));
+            out2(i) = k*factorial(z)*factorial(x+y);
+        end;
+        k = k + 1;
+        i = i + 1;
+    end;
+end
